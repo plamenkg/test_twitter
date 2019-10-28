@@ -6,8 +6,8 @@
 # Example execution in CMD:
 <pre>
  	1. Navigate to project folder | cd $projectDir 
-	2. Run tests 				  | dotnet test TwitterTests.csproj
- 	(Optional) Export results 	  | Add -l:trx;LogFileName=$fileName to the previous line
+	2. Run tests | dotnet test TwitterTests.csproj
+ 	(Optional) Export results | Add -l:trx;LogFileName=$fileName to the previous line
 </pre>
 # Scenario:	Delete comment of a tweet
 <pre>
@@ -23,7 +23,7 @@
 </pre>
 # Package references:
 <pre>
-	PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0"
+PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0"
     PackageReference Include="Microsoft.TestPlatform.TestHost" Version="16.2.0"
     PackageReference Include="NUnit" Version="3.12.0"
     PackageReference Include="NUnit.Console" Version="3.10.0"
