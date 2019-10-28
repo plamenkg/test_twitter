@@ -4,12 +4,13 @@
  .Net Core 2.2 SDK needs to be installed on executing machine
 
 # Example execution in CMD:
+<pre>
  	1. Navigate to project folder | cd $projectDir 
 	2. Run tests 				  | dotnet test TwitterTests.csproj
  	(Optional) Export results 	  | Add -l:trx;LogFileName=$fileName to the previous line
-
+</pre>
 # Scenario:	Delete comment of a tweet
-
+<pre>
  Scenario Description:
 	Given I have initialized my OAuth parameters
 	And I have initialized my tweet client with https://api.twitter.com
@@ -19,9 +20,10 @@
 	And I have navigated to Very original tweet tweet comments
 	When I delete the comment I love it
 	Then it should not be present on the Home page
-
-#Package references:
-	 <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0"/>
+</pre>
+# Package references:
+<pre>
+	<PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0"/>
     <PackageReference Include="Microsoft.TestPlatform.TestHost" Version="16.2.0"/>
     <PackageReference Include="NUnit" Version="3.12.0"/>
     <PackageReference Include="NUnit.Console" Version="3.10.0"/>
@@ -37,3 +39,4 @@
     <PackageReference Include="SpecFlow.NUnit" Version="3.0.225"/>
     <PackageReference Include="SpecFlow.NUnit.Runners" Version="3.0.225"/>
     <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.0.225"/>	
+</pre>
