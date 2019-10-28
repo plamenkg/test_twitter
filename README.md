@@ -23,20 +23,20 @@
 </pre>
 # Package references:
 <pre>
-	<PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0"/>
-    <PackageReference Include="Microsoft.TestPlatform.TestHost" Version="16.2.0"/>
-    <PackageReference Include="NUnit" Version="3.12.0"/>
-    <PackageReference Include="NUnit.Console" Version="3.10.0"/>
-    <PackageReference Include="NUnit.ConsoleRunner" Version="3.10.0"/>
-    <PackageReference Include="NUnit.Runners" Version="3.10.0"/>
-    <PackageReference Include="NUnit3TestAdapter" Version="3.15.1"/>
-    <PackageReference Include="RestSharp.NetCore" Version="105.2.3"/>
-    <PackageReference Include="Selenium.Support" Version="3.141.0"/>
-    <PackageReference Include="Selenium.WebDriver" Version="3.141.0"/>
-    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="78.0.3904.7000"/>
-    <PackageReference Include="SpecFlow" Version="3.0.225"/>
-    <PackageReference Include="SpecFlow.Assist.Dynamic" Version="1.4.1"/>
-    <PackageReference Include="SpecFlow.NUnit" Version="3.0.225"/>
-    <PackageReference Include="SpecFlow.NUnit.Runners" Version="3.0.225"/>
-    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.0.225"/>	
+	PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0"
+    PackageReference Include="Microsoft.TestPlatform.TestHost" Version="16.2.0"
+    PackageReference Include="NUnit" Version="3.12.0"
+    PackageReference Include="NUnit.Console" Version="3.10.0"
+    PackageReference Include="NUnit.ConsoleRunner" Version="3.10.0"
+    PackageReference Include="NUnit.Runners" Version="3.10.0"
+    PackageReference Include="NUnit3TestAdapter" Version="3.15.1"
+    PackageReference Include="RestSharp.NetCore" Version="105.2.3"
+    PackageReference Include="Selenium.Support" Version="3.141.0"
+    PackageReference Include="Selenium.WebDriver" Version="3.141.0"
+    PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="78.0.3904.7000"
+    PackageReference Include="SpecFlow" Version="3.0.225"
+    PackageReference Include="SpecFlow.Assist.Dynamic" Version="1.4.1"
+    PackageReference Include="SpecFlow.NUnit" Version="3.0.225"
+    PackageReference Include="SpecFlow.NUnit.Runners" Version="3.0.225"
+    PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.0.225"
 </pre>
