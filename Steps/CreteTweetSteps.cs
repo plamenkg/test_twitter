@@ -3,6 +3,7 @@ using TechTalk.SpecFlow;
 using TwitterTests.Clients;
 using TwitterTests.Models;
 using TwitterTests.Models.Responses;
+using System;
 
 namespace TwitterTests.Steps
 {
@@ -33,6 +34,7 @@ namespace TwitterTests.Steps
         {
            this.context.previousTweet = this.context.twitterClient.PostTweet(text);
         }
+        
         [Given("I replied to the tweet with comment (.*)")]
         public void GivenIHaveCommentedMyTweet(string comment)
         {

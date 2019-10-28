@@ -1,6 +1,6 @@
 ﻿Feature: TwitterDelete
 
-@mytag
+@DeleteComment
 Scenario: Delete comment of a tweet
 	Given I have initialized my OAuth parameters
 	| ApiKey                    | ApiSecretKey                                       | Token                                              | TokenSecret                                  |
@@ -9,7 +9,7 @@ Scenario: Delete comment of a tweet
 	And I have initialized my tweet client with https://api.twitter.com
 	And I created a tweet with text Very original tweet
 	And I replied to the tweet with comment I love it
-#	And I have logged into https://twitter.com with username plamenkg and password TestPassword1@
-#	And I have navigated to Very original tweet tweet comments
-#	When I delete the comment I love it
-#	Then it should not be present on the Home page
+	And I have logged into https://twitter.com with username plamenkg and password TestPassword1@
+	And I have navigated to Very original tweet tweet comments
+	When I delete the comment I love it
+	Then it should not be present on the Home page
